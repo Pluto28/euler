@@ -1,6 +1,8 @@
-mod id_0;
 mod id_1;
 mod id_2;
+mod id_3;
+mod id_4;
+mod id_5;
 
 
 trait Solution {
@@ -9,12 +11,11 @@ trait Solution {
 
 // The commented problems haven't been solved yet
 fn main() {
-    id_0::Id0::solve();
     id_1::Id1::solve();
     id_2::Id2::solve();
-    //id_3::Id3::solve();
-    //id_4::Id4::solve();
-    //id_5::Id5::solve();
+    id_3::Id3::solve();
+    id_4::Id4::solve();
+    id_5::Id5::solve();
     //id_6::Id6::solve();
     //id_7::Id7::solve();
     //id_8::Id8::solve();
